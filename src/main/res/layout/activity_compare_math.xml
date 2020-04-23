@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_bck"
+    tools:context=".compare_math">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/backgraund_text"
+        android:gravity="center"
+        android:text="قــــارن الاعداد التالية :"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_egal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/button_etudient"
+        android:text="@string/egalite"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btn_inf"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_inf"
+        app:layout_constraintTop_toBottomOf="@+id/btn_inf"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/back_ground_number"
+        android:text="2"
+        android:textColor="#DD1616"
+        android:textSize="@dimen/dmn_60_sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_sup"
+        app:layout_constraintStart_toEndOf="@+id/btn_egal"
+        app:layout_constraintTop_toTopOf="@+id/btn_inf" />
+
+    <Button
+        android:id="@+id/btn_inf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/button_etudient"
+        android:text="@string/inf"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_sup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_etudient"
+        android:text="@string/superieur"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btn_egal"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_egal"
+        app:layout_constraintTop_toBottomOf="@+id/btn_egal"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dmn_20_dp"
+        android:background="@drawable/back_ground_number"
+        android:text="1"
+        android:textColor="#13DBC5"
+        android:textSize="@dimen/dmn_60_sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_sup"
+        app:layout_constraintEnd_toStartOf="@+id/btn_egal"
+        app:layout_constraintTop_toTopOf="@+id/btn_inf" />
+
+    <Button
+        android:id="@+id/btnSorte_compar"
+        android:layout_width="@dimen/dmn_60_dp"
+        android:layout_height="@dimen/dmn_60_dp"
+        android:layout_marginStart="@dimen/dmn_30_dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/iconback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textResul"
+        android:layout_width="300dp"
+        android:layout_height="@dimen/dmn_60_dp"
+        android:layout_marginTop="@dimen/dmn_20_dp"
+        android:background="@drawable/background_resulta_text"
+        android:gravity="center"
+        android:textColor="#1ECF67"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/text2"
+        app:layout_constraintStart_toStartOf="@+id/text1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sup"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="الـنتيجة :"
+        android:textColor="#070707"
+        app:layout_constraintEnd_toEndOf="@+id/textResul"
+        app:layout_constraintTop_toTopOf="@+id/textResul" />
+</androidx.constraintlayout.widget.ConstraintLayout>

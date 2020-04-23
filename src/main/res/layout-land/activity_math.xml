@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/math_them"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/butn_calcul"
+        android:layout_width="@dimen/dmn_100_dp"
+        android:layout_height="@dimen/dmn_80_dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/dmn_200_dp"
+        android:layout_marginTop="@dimen/dmn_60_dp"
+        android:background="@drawable/unnamed"
+        android:contextClickable="true" />
+
+    <Button
+        android:id="@+id/butn_number"
+        android:layout_width="@dimen/dmn_100_dp"
+        android:layout_height="@dimen/dmn_80_dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/dmn_30_dp"
+        android:layout_marginTop="@dimen/dmn_60_dp"
+        android:layout_toEndOf="@+id/butn_calcul"
+        android:background="@drawable/number" />
+
+    <Button
+        android:id="@+id/butn_compar"
+        android:layout_width="@dimen/dmn_100_dp"
+        android:layout_height="@dimen/dmn_80_dp"
+        android:layout_below="@+id/butn_number"
+        android:layout_marginStart="@dimen/dmn_30_dp"
+        android:layout_marginTop="@dimen/dmn_30_dp"
+        android:layout_toEndOf="@+id/butn_achekl"
+        android:background="@drawable/comapri" />
+
+    <Button
+        android:id="@+id/butnSortie"
+        android:layout_width="@dimen/dmn_60_dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/dmn_30_dp"
+        android:layout_marginTop="@dimen/dmn_60_dp"
+        android:background="@drawable/iconback" />
+
+    <Button
+        android:id="@+id/butn_achekl"
+        android:layout_width="@dimen/dmn_100_dp"
+        android:layout_height="@dimen/dmn_80_dp"
+        android:layout_below="@+id/butn_calcul"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/dmn_200_dp"
+        android:layout_marginTop="@dimen/dmn_30_dp"
+        android:background="@drawable/achekal" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/backgraund_text"
+        android:gravity="center"
+        android:text="@string/textView_math"
+        android:textSize="@dimen/dmn_18_sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>

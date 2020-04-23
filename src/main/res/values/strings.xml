@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Material Premium</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_2">Activity2</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <string name="textView_math">قســم الرياضيــــات و الحســـاب</string>
+    <string name="textView_science">قســم العـــــلوم</string>
+    <string name="partie_prof">جـــــزء المعلــــم</string>
+    <string name="partie_etudient">جـــــزء التلميذ</string>
+    <string name="text_jeux">العـــاب و ترفيه</string>
+    <string name="text_arabe">اللغــة العربية و القراءة</string>
+    <string name="text_math">الرياضــــيات و الحساب</string>
+    <string name="todo">TODO</string>
+    <string name="inferieur"><![CDATA[<]]></string>
+    <string name="superieur"><![CDATA[>]]></string>
+    <string name="mssg_foux_1">خطــئ أعد المحـاولة</string>
+    <string name="mssg_foux_2">أعد المحـاولة مرة اخرى</string>
+    <string name="mss_vrai">احســـنت واصل</string>
+    <string name="mss_fin">انتهــــى الاختبار نقطتك هي</string>
+    <string name="ganer">هنيئــــا لقد فزت</string>
+    <string name="inf"><![CDATA[<]]></string>
+    <string name="egalite">=</string>
+    <string name="sup"><![CDATA[>]]></string>
+    <string name="forme1">مـربع</string>
+    <string name="forme2">مستطيل</string>
+    <string name="forme3">مثلث</string>
+    <string name="forme4">دائـرة</string>
+    <string name="forme5">إهليـج</string>
+    <string name="forme6">نصف دائـرة</string>
+    <string name="forme7">نجمــة</string>
+    <string name="forme8">خمـاسي الاضلاع</string>
+    <string name="forme9">سداسـي الاضلاع</string>
+    <string name="forme10">معيــن</string>
+    <string name="forme11">أسطوانـة</string>
+    <string name="forme12">هــرم</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+    <string name="rouje1">أحمــر</string>
+    <string name="jone3"> أصفــر</string>
+    <string name="vert2"> أخضــر</string>
+    <string name="banafsaji5">بنفســجي</string>
+    <string name="bortoGali6">برتــقـالي</string>
+    <string name="noire7">أســود</string>
+    <string name="wardi9">وردي</string>
+    <string name="bonie10">بنــي</string>
+    <string name="blanche8">أبيــض</string>
+    <string name="blue4">أزرق</string>
+    <string name="l1">أ </string>
+    <string name="l2">ب </string>
+    <string name="l3">ت </string>
+    <string name="l4">ث </string>
+    <string name="l5"> ح </string>
+    <string name="l6">ج </string>
+    <string name="l7">خ </string>
+    <string name="l8">د </string>
+    <string name="l9">ذ </string>
+    <string name="l10">ر </string>
+    <string name="l11">ز </string>
+    <string name="l12">س </string>
+    <string name="l13">ش </string>
+    <string name="l14">ص </string>
+    <string name="l15">ض </string>
+    <string name="l16">ط </string>
+    <string name="l17">ظ </string>
+    <string name="l18">ع </string>
+    <string name="l19">غ </string>
+    <string name="l20">ف </string>
+    <string name="l21">ق </string>
+    <string name="l22">ك </string>
+    <string name="l23">ل </string>
+    <string name="l24">م </string>
+    <string name="l25">ن </string>
+    <string name="l26">ه </string>
+    <string name="l27">و </string>
+    <string name="l28">ي</string>
+
+    <string name="qst1">ذهب محمد ...... المدرسة</string>
+    <string name="rep1_1_v">إلى</string>
+    <string name="rep1_2">في</string>
+    <string name="rep1_3">مع</string>
+
+    <string name="qst2">...... أحضرت مجموعة من الصور</string>
+    <string name="rep2_1_v">أنا</string>
+    <string name="rep2_2">هم</string>
+    <string name="rep2_3">هن</string>
+
+    <string name="qst3">الطائر يعود ليلا إلى ......</string>
+    <string name="rep3_1_v">العش</string>
+    <string name="rep3_2">السماء</string>
+    <string name="rep3_3">الأرض</string>
+
+    <string name="qst4">السمـاء تمطر ......</string>
+    <string name="rep4_1_v">شتاءا</string>
+    <string name="rep4_2">غيوم</string>
+    <string name="rep4_3">إعصار</string>
+
+    <string name="qst5">الأب ...... من يتعب من أجل أبنائه</string>
+    <string name="rep5_1_v">هو</string>
+    <string name="rep5_2">هي</string>
+    <string name="rep5_3">هما</string>
+
+    <string name="qst6">الطفل النجيب ...... والديه</string>
+    <string name="rep6_1_v">يطيع</string>
+    <string name="rep6_2">يعصي</string>
+    <string name="rep6_3">لا يسمع</string>
+
+    <string name="qst7">المعلم هو سند ......</string>
+    <string name="rep7_1_v">التلميذ</string>
+    <string name="rep7_2">نفسه</string>
+    <string name="rep7_3">عمله</string>
+
+    <string name="qst8">الأرنب ...... المشي</string>
+    <string name="rep8_1_v">سريع</string>
+    <string name="rep8_2">بطيئ</string>
+    <string name="rep8_3">قوي</string>
+
+    <string name="qst9">سلمى ...... دمية</string>
+    <string name="rep9_1_v">تملك</string>
+    <string name="rep9_2">يملكــان</string>
+    <string name="rep9_3">يملك</string>
+
+    <string name="qst10">...... تحبون المدرسة</string>
+    <string name="rep10_1_v">أنتم</string>
+    <string name="rep10_2">أنت</string>
+    <string name="rep10_3">أنا</string>
+
+
+</resources>

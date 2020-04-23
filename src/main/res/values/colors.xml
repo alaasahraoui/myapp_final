@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="colorAccent">#64b5f6</color>
+
+
+    <color name="points">#18ffff</color>
+
+
+    <color name="blue_100">#bbdefb</color>
+
+    <color name="tooltip_background_dark">#e6616161</color>
+    <color name="tooltip_background_light">#e6ffffff</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="rouge">#DD1616</color>
+    <color name="vert">#1ECF67</color>
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+    <color name="fastlane_background">#0096a6</color>
+    <color name="search_opaque">#ffaa3f</color>
+    <color name="selected_background">#ffaa3f</color>
+    <color name="default_background">#3d3d3d</color>
+    <color name="rouge1">#FFD50000</color>
+    <color name="vert2">#FF00C853</color>
+    <color name="jone3">#FFFFD600</color>
+    <color name="blue4">#FF0091EA</color>
+    <color name="banafsaji5">#FFAA00FF</color>
+    <color name="bortoGali6">#FFFF6D00</color>
+    <color name="noire7">#FF0C0C0C</color>
+    <color name="blanche8"> #FFFFFFFF </color>
+    <color name="wardi9">#FFF1A7C8</color>
+    <color name="bonie10">#FF611205</color>
+
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_bck"
+    tools:context=".arabe">
+
+    <Button
+        android:id="@+id/butn_arabe2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="@dimen/dmn_50_dp"
+        android:background="@drawable/button_module"
+        android:text="التعـرف على الكلمات"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/butn_arabe1"
+        app:layout_constraintTop_toTopOf="@+id/butn_arabe1" />
+
+    <Button
+        android:id="@+id/butn_arabe3"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="@dimen/dmn_100_dp"
+        android:background="@drawable/button_module"
+        android:text="إكمـال الجمل"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/butn_arabe2"
+        app:layout_constraintTop_toBottomOf="@+id/butn_arabe1" />
+
+    <Button
+        android:id="@+id/butn_arabe4"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="@dimen/dmn_80_dp"
+        android:layout_marginEnd="@dimen/dmn_50_dp"
+        android:background="@drawable/button_module"
+        android:text="تعلـم الألــــوآن"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/butn_arabe3"
+        app:layout_constraintTop_toBottomOf="@+id/butn_arabe2" />
+
+    <Button
+        android:id="@+id/butn_arabe1"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="@dimen/dmn_80_dp"
+        android:layout_marginEnd="@dimen/dmn_100_dp"
+        android:background="@drawable/button_module"
+        android:text="حروف اللغة العربية"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/butnSortie2"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/dmn_30_dp"
+        android:layout_marginTop="@dimen/dmn_60_dp"
+        android:background="@drawable/iconback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/backgraund_text"
+        android:gravity="center"
+        android:text="قســـم اللغة العربــية"
+        android:textSize="@dimen/dmn_18_sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

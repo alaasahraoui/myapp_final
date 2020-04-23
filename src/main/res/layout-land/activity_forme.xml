@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6FAF7"
+    tools:context=".forme">
+
+    <Button
+        android:id="@+id/btnchoix1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#00B19C9C"
+        android:text="Button"
+        android:textColor="@color/rouge"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/textResulta3"
+        app:layout_constraintTop_toBottomOf="@+id/imagev" />
+
+    <Button
+        android:id="@+id/btnchoix3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#00685858"
+        android:text="Button"
+        android:textColor="@color/rouge"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="@+id/textResulta3"
+        app:layout_constraintTop_toBottomOf="@+id/imagev" />
+
+    <TextView
+        android:id="@+id/textResulta3"
+        android:layout_width="306dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="236dp"
+        android:background="@drawable/background_resulta_text"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/vert"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="الـنتيجة :"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/textResulta"
+        app:layout_constraintEnd_toEndOf="@+id/textResulta3"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="@+id/textResulta3"
+        app:layout_constraintTop_toTopOf="@+id/textResulta3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnSorte_forme"
+        android:layout_width="@dimen/dmn_60_dp"
+        android:layout_height="@dimen/dmn_60_dp"
+        android:layout_marginStart="@dimen/dmn_30_dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/iconback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/backgraund_text"
+        android:text="تعرف على الأشكــال الهندسية التالية"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagev"
+        android:layout_width="300dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnchoix2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:background="#00D3ABAB"
+        android:text="Button"
+        android:textColor="@color/rouge"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toStartOf="@+id/btnchoix3"
+        app:layout_constraintStart_toEndOf="@+id/btnchoix1"
+        app:layout_constraintTop_toBottomOf="@+id/imagev" />
+</androidx.constraintlayout.widget.ConstraintLayout>

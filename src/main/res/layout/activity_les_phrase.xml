@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_papier"
+    tools:context=".les_phrase">
+
+    <Button
+        android:id="@+id/bSorte_phrase"
+        android:layout_width="@dimen/dmn_60_dp"
+        android:layout_height="@dimen/dmn_50_dp"
+        android:layout_marginStart="@dimen/dmn_30_dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/iconback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textReslta_phrase"
+        android:layout_width="306dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="376dp"
+        android:background="@drawable/background_resulta_text"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/vert"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@+id/btn1_mots"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btn3_mots"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="الـنتيجة :"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/textReslta_phrase"
+        app:layout_constraintEnd_toEndOf="@+id/textReslta_phrase"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="@+id/textReslta_phrase"
+        app:layout_constraintTop_toTopOf="@+id/textReslta_phrase"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/backgraund_text"
+        android:text="إختـر الكلمة المناسبة للجملـة التالية :"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="10dp"
+        android:text="الجملـة :"
+        android:textColor="#050505"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dmn_80_dp"
+        android:layout_marginEnd="10dp"
+        android:text="الكلمة  :"
+        android:textColor="#050505"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/txt_phrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="@dimen/dmn_30_dp"
+        android:textColor="@color/blue4"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView17"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn1_mots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dmn_80_dp"
+        android:layout_marginEnd="10dp"
+        android:background="#00D8C3C3"
+        android:textColor="@color/noire7"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toStartOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/txt_phrase" />
+
+    <Button
+        android:id="@+id/btn2_mots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dmn_80_dp"
+        android:layout_marginEnd="5dp"
+        android:background="#00D8C3C3"
+        android:textColor="@color/noire7"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toStartOf="@+id/btn1_mots"
+        app:layout_constraintTop_toBottomOf="@+id/txt_phrase" />
+
+    <Button
+        android:id="@+id/btn3_mots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dmn_80_dp"
+        android:layout_marginEnd="5dp"
+        android:background="#00D8C3C3"
+        android:textColor="@color/noire7"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toStartOf="@+id/btn2_mots"
+        app:layout_constraintTop_toBottomOf="@+id/txt_phrase" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

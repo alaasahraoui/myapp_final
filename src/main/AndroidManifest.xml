@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapp6">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity_time"></activity>
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".testing" />
+        <activity android:name=".login" />
+        <activity android:name=".SliderAdapter" />
+        <activity android:name=".Activity3" />
+        <activity android:name=".les_animaux" />
+        <activity android:name=".les_phrase" />
+        <activity android:name=".les_color" />
+        <activity android:name=".alphebet" />
+        <activity android:name=".arabe" />
+        <activity android:name=".forme" />
+        <activity android:name=".compare_math" />
+        <activity android:name=".layout_ganier" />
+        <activity android:name=".Activity_calcul" />
+        <activity android:name=".math_number" />
+        <activity android:name=".Math" />
+        <activity
+            android:name=".Activity2"
+            android:label="@string/title_activity_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
