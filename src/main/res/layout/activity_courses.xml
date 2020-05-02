@@ -25,8 +25,8 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Choose the quiz"
-                android:textColor="@color/points"
+                android:text="Choose the Course"
+                android:textColor="#AED581"
                 android:textSize="32sp" />
 
             <TextView
@@ -35,9 +35,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/textView"
                 android:layout_marginTop="10dp"
-                android:text="6 Quizes"
-                android:textColor="#52BAFF"
+                android:text="6 Courses"
+                android:textColor="#AED581"
                 android:textSize="24sp" />
+
         </RelativeLayout>
 
         <GridLayout
@@ -52,7 +53,7 @@
             >
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/carsd11"
+                android:id="@+id/c1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
@@ -65,6 +66,7 @@
                 android:fadingEdge="horizontal"
                 android:filterTouchesWhenObscured="false"
                 android:foregroundTint="#00131212"
+                android:onClick="openlink"
                 android:outlineAmbientShadowColor="#000000"
                 android:outlineSpotShadowColor="#000000"
                 app:cardCornerRadius="12dp"
@@ -78,7 +80,7 @@
                     android:background="@drawable/card_bg"
                     android:gravity="center"
                     android:hapticFeedbackEnabled="false"
-                    android:onClick="start_quizAct"
+
                     android:orientation="vertical"
                     android:padding="16dp">
 
@@ -88,21 +90,23 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
 
+                        android:onClick="openlink"
                         app:srcCompat="@drawable/bitcoin" />
 
                     <TextView
-                        android:id="@+id/textVddiew322"
+                        android:id="@+id/t1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
+                        android:onClick="openlink"
                         android:text="Geography"
-                        android:textColor="@color/points"
+                        android:textColor="#AED581"
                         android:textSize="18sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card1"
+                android:id="@+id/c2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
@@ -115,6 +119,7 @@
                 android:fadingEdge="horizontal"
                 android:filterTouchesWhenObscured="false"
                 android:foregroundTint="#00131212"
+                android:onClick="openlink"
                 android:outlineAmbientShadowColor="#000000"
                 android:outlineSpotShadowColor="#000000"
                 app:cardBackgroundColor="#FFFFFF"
@@ -137,21 +142,23 @@
                         android:id="@+id/heur"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        app:srcCompat="@drawable/date" />
+                        android:onClick="openlink"
+                        app:srcCompat="@drawable/timer" />
 
                     <TextView
                         android:id="@+id/textView32"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="History"
-                        android:textColor="@color/points"
+                        android:onClick="openlink"
+                        android:text="time"
+                        android:textColor="#AED581"
                         android:textSize="18sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card11"
+                android:id="@+id/c3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
@@ -164,6 +171,7 @@
                 android:fadingEdge="horizontal"
                 android:filterTouchesWhenObscured="false"
                 android:foregroundTint="#00131212"
+                android:onClick="openlink"
                 android:outlineAmbientShadowColor="#000000"
                 android:outlineSpotShadowColor="#000000"
                 app:cardBackgroundColor="#FFFFFF"
@@ -178,6 +186,7 @@
                     android:background="@drawable/card_bg"
                     android:gravity="center"
                     android:hapticFeedbackEnabled="false"
+                    android:onClick="openlink"
                     android:orientation="vertical"
                     android:padding="16dp">
 
@@ -194,7 +203,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="Maths"
-                        android:textColor="@color/points"
+                        android:textColor="#AED581"
                         android:textSize="18sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -213,6 +222,7 @@
                 android:fadingEdge="horizontal"
                 android:filterTouchesWhenObscured="false"
                 android:foregroundTint="#00131212"
+                android:onClick="openlink"
                 android:outlineAmbientShadowColor="#000000"
                 android:outlineSpotShadowColor="#000000"
                 app:cardBackgroundColor="#FFFFFF"
@@ -236,6 +246,7 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
 
+                        android:onClick="openlink"
                         app:srcCompat="@drawable/chat" />
 
                     <TextView
@@ -243,8 +254,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
+                        android:onClick="openlink"
                         android:text="لغة عربية"
-                        android:textColor="@color/points"
+                        android:textColor="#AED581"
                         android:textSize="18sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -263,6 +275,7 @@
                 android:fadingEdge="horizontal"
                 android:filterTouchesWhenObscured="false"
                 android:foregroundTint="#00131212"
+                android:onClick="openlink"
                 android:outlineAmbientShadowColor="#000000"
                 android:outlineSpotShadowColor="#000000"
                 app:cardBackgroundColor="#FFFFFF"
@@ -277,6 +290,7 @@
 
                     android:gravity="center"
                     android:hapticFeedbackEnabled="false"
+                    android:onClick="openlink"
                     android:orientation="vertical"
                     android:padding="16dp">
 
@@ -285,15 +299,17 @@
                         android:id="@+id/anglias"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        app:srcCompat="@drawable/animals3" />
+                        android:onClick="openlink"
+                        app:srcCompat="@drawable/date" />
 
                     <TextView
                         android:id="@+id/textfView322"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Animals"
-                        android:textColor="@color/points"
+                        android:onClick="openlink"
+                        android:text="english"
+                        android:textColor="#AED581"
                         android:textSize="18sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -312,6 +328,7 @@
                 android:fadingEdge="horizontal"
                 android:filterTouchesWhenObscured="false"
                 android:foregroundTint="#00131212"
+                android:onClick="openlink"
                 android:outlineAmbientShadowColor="#000000"
                 android:outlineSpotShadowColor="#000000"
                 app:cardBackgroundColor="#FFFFFF"
@@ -326,6 +343,7 @@
 
                     android:gravity="center"
                     android:hapticFeedbackEnabled="false"
+                    android:onClick="openlink"
                     android:orientation="vertical"
                     android:padding="16dp">
 
@@ -335,15 +353,17 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
 
-                        app:srcCompat="@drawable/s5" />
+                        android:onClick="openlink"
+                        app:srcCompat="@drawable/fr2" />
 
                     <TextView
                         android:id="@+id/textViewrr322"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Science"
-                        android:textColor="@color/points"
+                        android:onClick="openlink"
+                        android:text="francais"
+                        android:textColor="#AED581"
                         android:textSize="18sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -352,14 +372,12 @@
         </GridLayout>
 
         <Button
-            android:id="@+id/sortier"
-            android:layout_width="@dimen/dmn_60_dp"
-            android:layout_height="@dimen/dmn_60_dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="@dimen/dmn_30_dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/image_sortir" />
+            android:id="@+id/to_exo_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_for_field"
+            android:onClick="start_quiz_list"
+            android:text="الرجوع الى التمارين" />
 
 
     </LinearLayout>

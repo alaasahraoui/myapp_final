@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/image_bck"
+    android:background="@drawable/background"
     tools:context=".les_color">
 
     <Button
@@ -54,7 +54,7 @@
         android:layout_marginEnd="@dimen/dmn_30_dp"
         android:background="#00F0E5E5"
         android:text="Button"
-        android:textColor="#643D50"
+        android:textColor="@android:color/white"
         android:textSize="24sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/textReslta"
@@ -71,7 +71,7 @@
         android:layout_marginEnd="@dimen/dmn_30_dp"
         android:background="#00F8EBEB"
         android:text="Button"
-        android:textColor="#643D50"
+        android:textColor="@android:color/white"
         android:textSize="24sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/textReslta"
@@ -89,7 +89,7 @@
         android:layout_marginEnd="@dimen/dmn_30_dp"
         android:background="#00F3EDED"
         android:text="Button"
-        android:textColor="#643D50"
+        android:textColor="@android:color/white"
         android:textSize="24sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/textReslta"
@@ -123,6 +123,6 @@
         app:layout_constraintEnd_toEndOf="@+id/textReslta"
         app:layout_constraintHorizontal_bias="0.975"
         app:layout_constraintStart_toStartOf="@+id/textReslta"
-        app:layout_constraintTop_toTopOf="@+id/textResulta"
+        app:layout_constraintTop_toTopOf="@+id/textResulta_time"
         app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

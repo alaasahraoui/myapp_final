@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/dmn_50_dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_local_hospital_black_24dp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/dmn_50_dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_local_hospital_black_24dp" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/dmn_50_dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_local_hospital_black_24dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:gravity="center"
+        android:text="what is this ?"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/pen" />
+
+    <Button
+        android:id="@+id/Answer1"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_for_field"
+        android:text="Answer1"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/Answer3"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Answer4"
+
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_for_field"
+        android:text="Answer3"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/Answer2"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Answer1"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_for_field"
+        android:text="Answer2"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/Answer4"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Answer2"
+
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_for_field"
+        android:text="Answer4"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

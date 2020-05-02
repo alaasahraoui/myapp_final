@@ -138,5 +138,15 @@
     <string name="rep10_2">أنت</string>
     <string name="rep10_3">أنا</string>
 
+    <string name="a02_00">02:00</string>
+    <string name="a07_00">07:00</string>
+    <string name="a10_20">10:20</string>
+    <string name="a12_00">12:00</string>
+    <string name="a12_30">12:30</string>
+    <string name="clock">00:00</string>
+    <string name="title_activity_tabs">tabs</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
 
 </resources>

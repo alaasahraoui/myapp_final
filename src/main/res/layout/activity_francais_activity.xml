@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".francais_activity">
+
+    <Button
+        android:id="@+id/sorte_francais"
+        android:layout_width="@dimen/dmn_60_dp"
+        android:layout_height="@dimen/dmn_60_dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/dmn_30_dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/iconback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Quiz01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz01"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="145dp"/>
+    <Button
+        android:id="@+id/Quiz02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz01"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="195dp"/>
+
+
+</RelativeLayout>

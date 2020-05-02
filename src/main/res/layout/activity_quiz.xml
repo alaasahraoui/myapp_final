@@ -210,7 +210,13 @@
         app:fabAlignmentMode="end"
         app:fabCradleRoundedCornerRadius="20dp"
         app:menu="@menu/app_bar"
-        app:navigationIcon="@drawable/ic_menu" />
+        app:navigationIcon="@drawable/ic_menu"
+
+
+        />
+
+
+
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

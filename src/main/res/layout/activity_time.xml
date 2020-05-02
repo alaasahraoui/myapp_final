@@ -2,26 +2,18 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
 
-
-    <Button
-        android:id="@+id/btn_sorte_time"
-        android:layout_width="@dimen/dmn_60_dp"
-        android:layout_height="@dimen/dmn_50_dp"
-        android:layout_marginStart="@dimen/dmn_30_dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/iconback"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="83dp"
+        android:gravity="center"
         android:text="اختر الجواب الصحيح"
         android:textAlignment="gravity"
-        android:gravity="center"/>
+        android:textColor="@android:color/white" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -36,38 +28,46 @@
         android:layout_width="298dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView"
-        android:layout_marginTop="25dp"
         android:layout_marginStart="50dp"
-        android:text="Answer1" />
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_for_field"
+        android:text="Answer1"
+        android:textColor="@android:color/white" />
 
     <Button
         android:id="@+id/Answer2"
         android:layout_width="298dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView"
-        android:layout_marginTop="75dp"
         android:layout_marginStart="50dp"
+        android:layout_marginTop="75dp"
 
-        android:text="Answer2" />
+        android:background="@drawable/bg_for_field"
+        android:text="Answer2"
+        android:textColor="@android:color/white" />
 
     <Button
         android:id="@+id/Answer3"
         android:layout_width="298dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView"
-        android:layout_marginTop="125dp"
         android:layout_marginStart="50dp"
+        android:layout_marginTop="125dp"
 
-        android:text="Answer3" />
+        android:background="@drawable/bg_for_field"
+        android:text="Answer3"
+        android:textColor="@android:color/white" />
 
     <Button
         android:id="@+id/Answer4"
         android:layout_width="298dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView"
-        android:layout_marginTop="175dp"
         android:layout_marginStart="50dp"
+        android:layout_marginTop="175dp"
 
-        android:text="Answer4" />
+        android:background="@drawable/bg_for_field"
+        android:text="Answer4"
+        android:textColor="@android:color/white" />
 
 </RelativeLayout>

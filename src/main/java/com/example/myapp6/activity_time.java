@@ -1,7 +1,6 @@
 package com.example.myapp6;
 
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,15 +13,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
-
 public class activity_time extends AppCompatActivity {
-    Intent time_intent;
-
     private ImageView questionImage;
     private Button answer1;
     private Button answer2;
     private Button answer3;
-    private Button answer4,btn_sorte_time;
+    private Button answer4;
     private String rightAnswer;
     private int rightAnswerCount = 0;
     private int quizCount = 1;
@@ -40,22 +36,12 @@ public class activity_time extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_time);
         questionImage = findViewById(R.id.imageView);
         answer1 = findViewById(R.id.Answer1);
         answer2 = findViewById(R.id.Answer2);
         answer3 = findViewById(R.id.Answer3);
         answer4 = findViewById(R.id.Answer4);
-        time_intent=new Intent(this,Activity3.class);
-        btn_sorte_time=findViewById(R.id.btn_sorte_time);
-        btn_sorte_time.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(time_intent);
-                finish();
-
-            }
-        });
 
         for (int i = 0; i < quizData.length; i++) {
 

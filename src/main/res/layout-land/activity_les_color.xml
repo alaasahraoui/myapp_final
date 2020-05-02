@@ -112,6 +112,6 @@
         app:layout_constraintEnd_toEndOf="@+id/textReslta"
         app:layout_constraintHorizontal_bias="0.975"
         app:layout_constraintStart_toStartOf="@+id/textReslta"
-        app:layout_constraintTop_toTopOf="@+id/textResulta"
+        app:layout_constraintTop_toTopOf="@+id/textResulta_time"
         app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -42,7 +42,7 @@ public class Activity_calcul extends AppCompatActivity implements View.OnClickLi
         tabl_butn[1]=findViewById(id.btn2_choix);
         tabl_butn[2]=findViewById(id.btn3_choix);
         btnSorte=findViewById(id.bSorteClcul);
-        textResulta=findViewById(id.textResulta);
+        textResulta=findViewById(id.textResulta_time);
 
         btnSorte.setOnClickListener(this);
         text1=findViewById(id.text1);

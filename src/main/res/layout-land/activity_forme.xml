@@ -57,7 +57,7 @@
         android:textColor="#070707"
         android:textSize="18sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="@+id/textResulta"
+        app:layout_constraintBottom_toBottomOf="@+id/textResulta_time"
         app:layout_constraintEnd_toEndOf="@+id/textResulta3"
         app:layout_constraintHorizontal_bias="0.952"
         app:layout_constraintStart_toStartOf="@+id/textResulta3"

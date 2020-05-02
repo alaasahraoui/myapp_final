@@ -151,7 +151,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textResulta"
+        android:id="@+id/textResulta_time"
         android:layout_width="211dp"
         android:layout_height="37dp"
         android:layout_marginTop="244dp"
@@ -171,8 +171,8 @@
         android:textColor="#070707"
         android:textSize="14sp"
         android:textStyle="bold|italic"
-        app:layout_constraintEnd_toEndOf="@+id/textResulta"
+        app:layout_constraintEnd_toEndOf="@+id/textResulta_time"
         app:layout_constraintHorizontal_bias="0.877"
-        app:layout_constraintStart_toStartOf="@+id/textResulta"
-        app:layout_constraintTop_toTopOf="@+id/textResulta" />
+        app:layout_constraintStart_toStartOf="@+id/textResulta_time"
+        app:layout_constraintTop_toTopOf="@+id/textResulta_time" />
 </androidx.constraintlayout.widget.ConstraintLayout>

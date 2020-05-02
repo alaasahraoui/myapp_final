@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity_time"></activity>
+        <activity android:name=".coursesActivity"></activity>
+        <activity android:name=".activity_francais_0" />
+        <activity android:name=".activity_francais1" />
+        <activity android:name=".francais_activity" />
+        <activity android:name=".activity_anglais" />
+        <activity android:name=".activity_time" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main4Activity" />
         <activity android:name=".QuizActivity" />
         <activity android:name=".testing" />
         <activity android:name=".login" />

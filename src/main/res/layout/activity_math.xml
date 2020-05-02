@@ -3,39 +3,39 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/math_them"
+    android:background="@drawable/background"
     android:orientation="vertical">
 
     <Button
         android:id="@+id/butn_calcul"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="@dimen/dmn_50_dp"
         android:layout_marginTop="@dimen/dmn_120_dp"
-        android:contextClickable="true"
-        android:background="@drawable/unnamed" />
+        android:background="@drawable/plusetmoins"
+        android:contextClickable="true" />
 
     <Button
         android:id="@+id/butn_number"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_alignParentTop="true"
         android:layout_marginStart="@dimen/dmn_30_dp"
         android:layout_marginTop="@dimen/dmn_120_dp"
         android:layout_toEndOf="@+id/butn_calcul"
-        android:background="@drawable/number" />
+        android:background="@drawable/nbr" />
 
     <Button
         android:id="@+id/butn_compar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_below="@+id/butn_number"
         android:layout_marginStart="@dimen/dmn_30_dp"
         android:layout_marginTop="@dimen/dmn_30_dp"
         android:layout_toEndOf="@+id/butn_achekl"
-        android:background="@drawable/comapri" />
+        android:background="@drawable/nbr3" />
 
     <Button
         android:id="@+id/butnSortie"
@@ -49,13 +49,13 @@
 
     <Button
         android:id="@+id/butn_achekl"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_below="@+id/butn_calcul"
         android:layout_alignParentStart="true"
         android:layout_marginStart="50dp"
         android:layout_marginTop="@dimen/dmn_30_dp"
-        android:background="@drawable/achekal" />
+        android:background="@drawable/nbr2" />
 
     <TextView
         android:id="@+id/textView5"
